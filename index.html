@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    html {
+        background-color: black;
+    }
+
+    #bgDiv {
+        background: url('./bg.gif');
+        filter: blur(20px);
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    }
+
+    #mainDiv {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #00000098;
+        color: white;
+    }
+    #headerDiv {
+        position: relative;
+        width: 100%;
+    }
+    h1#header {
+        text-align: center;
+        font-size: 40px;
+        margin: 15px auto 15px auto;
+    }
+
+    #contentDiv {
+        margin: 10px;
+    }
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="bgDiv"></div>
+    <div id="mainDiv">
+        <div id="headerDiv">
+            <h1 id="header">Welcome to the rsbsPLUS website!</h1>
+            <h2 style="text-align: center;">Here you can find all the info you need to get your rsbsPLUS adventure started!</h2>
+        </div>
+        <hr>
+        <div id="contentDiv">
+            <h2 name="screenshots">&#9881; Screenshots</h2>
+            <h2 name="downloads">&#9881; Downloads</h2>
+            <h2 name="qna">&#9881; Q&amp;A</h2>
+            
+            <!-- Q&A -->
+            <p>First of all: what is rsbsPLUS?</p>
+        </div>
+    </div>
+</body>
+
+</html>
